@@ -1,0 +1,124 @@
+
+*{
+	padding: 0;
+	margin: 0px;
+	font=font-family: -apple-system,BlinkMacSystemFont,Helvetica Neue,
+	PingFang SC,Microsoft YaHei,Source Han Sans SC,
+	Noto Sans CJK SC,WenQuanYi Micro Hei,sans-serif;
+	/*overflow-x: hidden;*/
+}
+.container{
+	background-color: #fff;
+	width: 100%;
+	height: 100%;
+}
+.nav{
+	width: 305px;
+	height: 1080px;
+	border-right:1px solid #f2f2f4 ;
+	font-size: 24px;
+	color:#6e6d7a;
+	position: fixed;
+	top: 0;
+	
+}
+.nav .nav_logo{
+	width: 44px;
+	height: 44px;
+	padding: 80px 0 0 88px;
+}
+.nav .nav_bq ul{
+	padding: 80px 0 0 88px;
+}
+.nav .nav_bq ul li{
+	list-style-type: none;
+	font-size: 16px;
+	padding: 24px 0;
+	height: 24px;
+	
+}
+.nav .nav_bq ul li p{
+	line-height: 24px;
+}
+
+.nav .nav_bq ul li img{
+	width: 24px;
+	height: 24px;
+	float: left;
+	padding-right: 32px;
+}
+.nav .nav_bq ul li:hover{
+	color:#301de2;
+	cursor:pointer;
+}
+.main{
+	width: 1615px;
+	height: 2000px;
+	margin-left: 305px; 
+	margin: : 80px 145px 0 160px;
+	
+}
+.main .main_top{
+	position: fixed;
+	top: 0;
+	width: 1615px;
+	height: 64px;
+
+	padding-top: 80px ;
+}
+.main .main_top .main_search{
+	display: inline-block;
+	margin-left: 160px;
+}
+.main .main_top .main_login{
+	width: 44px;
+	height: 44px;
+	border-radius: 12px;
+	background-color: #301de2;
+	float: right;
+	margin-right: 145px; 
+}
+.main .main_top .main_search img{
+	width: 24px;
+	height: 24px;
+	padding: 10px 0;
+	
+}
+.main .main_l{
+	width:800px;
+	padding: 80px 160px;
+	display: inline-block;
+	margin: 0;
+}
+.main_title{
+	padding: 64px 0 24px 0;
+	border-bottom: 1px solid #f2f2f4; 
+}
+.main .main_title h1{
+	font-size: 28px;
+	color: #121020;
+	line-height: 48px;
+}
+.main .main_title p{
+	font-size: 18px;
+	color: #4f4e53;
+	line-height: 48px;
+}
+.main .main_title p{
+	background-image:
+}
+
+.main .main_l .main_article{
+	width: 100%;
+	height: auto;
+	padding: 48px 0 48px 0;
+	border-bottom: 1px solid #f2f2f4;
+}
+/*main_r屏幕左侧***/
+.main .main_r{
+	width: 21.6%;
+	height: 2000px;
+	float: right;
+	padding:80px 145px 0 0 ; 
+	background-color: #aaa;
+}
