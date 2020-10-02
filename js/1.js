@@ -1,0 +1,3 @@
+function ShowHide(argument) {
+	// body...
+}
