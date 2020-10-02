@@ -111,7 +111,7 @@ html{
 	background-image:
 }
 article{
-	padding: 24px 0 80px 0;
+	padding: 24px 0 48px 0;
 	border-bottom: 1px solid #f2f2f4;
 }
 article img{
@@ -119,14 +119,17 @@ article img{
 	height: 100%;
 }
 article h1{
+	padding-top: 24px;
 	font-size: 28;
 	font-weight: 700;
 	line-height: 48px;
+	color: #6e6d7a;
 }
 article p{
-	font-size: 14px;
+	font-size: 16px;
 	color: #4f4e53;
 	line-height: 28px;
+	color: #6e6d7a;
 }
 .main .main_l .main_article{
 	width: 100%;
